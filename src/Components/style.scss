@@ -1,0 +1,155 @@
+//AUTH
+
+.auth-root,
+.profile-root {
+  width: inherit;
+  height: 100vh;
+  overflow: auto;
+  background-image: url(https://res.cloudinary.com/dwtjde0mg/image/upload/v1657257405/matthew-henry-VviFtDJakYk-unsplash_kbwxs6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .auth-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    width: 40%;
+    background-color: rgba(white, 0.7);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    h1,
+    .ab-p1 {
+      margin: 1% 0;
+      text-align: center;
+    }
+    .pass-box {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      button {
+        background-color: transparent;
+        height: fit-content;
+        width: fit-content;
+        font-size: 1.2rem;
+        color: rgb(173, 173, 173);
+        outline: none;
+        border: none;
+      }
+    }
+    input {
+      width: 100%;
+      padding: 3%;
+      box-sizing: border-box;
+      margin: 2% 0;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      &:focus {
+        background-color: rgb(230, 230, 230);
+      }
+      &::placeholder {
+        text-transform: capitalize;
+      }
+    }
+    .auth-btn-zone {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        font-size: 0.8rem;
+        &:hover {
+          text-decoration: 1px solid underline;
+          cursor: pointer;
+        }
+      }
+      button {
+        width: 20%;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        padding: 2%;
+        border-radius: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+    .auth-error-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1%;
+      background-color: #f37878;
+      color: whitesmoke;
+      margin: 2% 0;
+      border-radius: 5px;
+      text-transform: capitalize;
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: whitesmoke;
+      }
+    }
+  }
+}
+
+//PROFILE
+
+.profile-root {
+  background-image: url(https://res.cloudinary.com/dwtjde0mg/image/upload/v1657295702/simon-berger-twukN12EN7c-unsplash_nqlx2l.jpg);
+  .profile-box {
+    h2 {
+      text-align: center;
+    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    width: 40%;
+    background-color: rgba(white, 0.7);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    div {
+      background-color: rgba(white, 0.6);
+      padding: 2%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 8px;
+      margin: 2% 0;
+      word-wrap: break-word;
+    }
+    .profile-btn-zone {
+      background: transparent;
+      box-shadow: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        width: 20%;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        padding: 2%;
+        border-radius: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+}

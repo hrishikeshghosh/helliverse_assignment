@@ -1,0 +1,173 @@
+.auth-root,
+.profile-root {
+  width: inherit;
+  height: 100vh;
+  overflow: auto;
+  background-image: url(https://res.cloudinary.com/dwtjde0mg/image/upload/v1657257405/matthew-henry-VviFtDJakYk-unsplash_kbwxs6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.auth-root .auth-box,
+.profile-root .auth-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.auth-root .auth-box h1,
+.auth-root .auth-box .ab-p1,
+.profile-root .auth-box h1,
+.profile-root .auth-box .ab-p1 {
+  margin: 1% 0;
+  text-align: center;
+}
+.auth-root .auth-box .pass-box,
+.profile-root .auth-box .pass-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.auth-root .auth-box .pass-box button,
+.profile-root .auth-box .pass-box button {
+  background-color: transparent;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2rem;
+  color: rgb(173, 173, 173);
+  outline: none;
+  border: none;
+}
+.auth-root .auth-box input,
+.profile-root .auth-box input {
+  width: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  margin: 2% 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.auth-root .auth-box input:focus,
+.profile-root .auth-box input:focus {
+  background-color: rgb(230, 230, 230);
+}
+.auth-root .auth-box input::-moz-placeholder, .profile-root .auth-box input::-moz-placeholder {
+  text-transform: capitalize;
+}
+.auth-root .auth-box input:-ms-input-placeholder, .profile-root .auth-box input:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+.auth-root .auth-box input::placeholder,
+.profile-root .auth-box input::placeholder {
+  text-transform: capitalize;
+}
+.auth-root .auth-box .auth-btn-zone,
+.profile-root .auth-box .auth-btn-zone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.auth-root .auth-box .auth-btn-zone p,
+.profile-root .auth-box .auth-btn-zone p {
+  font-size: 0.8rem;
+}
+.auth-root .auth-box .auth-btn-zone p:hover,
+.profile-root .auth-box .auth-btn-zone p:hover {
+  -webkit-text-decoration: 1px solid underline;
+          text-decoration: 1px solid underline;
+  cursor: pointer;
+}
+.auth-root .auth-box .auth-btn-zone button,
+.profile-root .auth-box .auth-btn-zone button {
+  width: 20%;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  padding: 2%;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.auth-root .auth-box .auth-btn-zone button:hover,
+.profile-root .auth-box .auth-btn-zone button:hover {
+  background-color: black;
+  color: white;
+}
+.auth-root .auth-box .auth-error-box,
+.profile-root .auth-box .auth-error-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #f37878;
+  color: whitesmoke;
+  margin: 2% 0;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.auth-root .auth-box .auth-error-box button,
+.profile-root .auth-box .auth-error-box button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+}
+
+.profile-root {
+  background-image: url(https://res.cloudinary.com/dwtjde0mg/image/upload/v1657295702/simon-berger-twukN12EN7c-unsplash_nqlx2l.jpg);
+}
+.profile-root .profile-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.profile-root .profile-box h2 {
+  text-align: center;
+}
+.profile-root .profile-box div {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  margin: 2% 0;
+  word-wrap: break-word;
+}
+.profile-root .profile-box .profile-btn-zone {
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-root .profile-box .profile-btn-zone button {
+  width: 20%;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  padding: 2%;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.profile-root .profile-box .profile-btn-zone button:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
