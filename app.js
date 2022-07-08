@@ -16,7 +16,7 @@ app.use(cors());
 // app.use(cookieParser());
 
 //Route Definitions
-app.get("/", (req, res) => console.log("Server is live"));
+app.get("/", (req, res) => res.send("Server is live"));
 app.use("/api/v1", user);
 
 connectDatabase();
